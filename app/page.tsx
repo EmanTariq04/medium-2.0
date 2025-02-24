@@ -52,9 +52,9 @@ export default async function Home() {
             href={`/post/${posts.slug.current}`}
             className=""
           >
-            <div className="group">
+            <div className="border rounded-lg group cursor-pointer overflow-hidden">
               <img
-                className="h-60 w-full object-cover group-hover:scale-105"
+                className="h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out"
                 src={
                   posts.mainImage
                     ? urlFor(posts.mainImage).url()
