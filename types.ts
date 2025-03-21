@@ -1,4 +1,4 @@
-export interface Post {
+export interface Posts {
   _id: string;
   _createdAt: string;
   title: string;

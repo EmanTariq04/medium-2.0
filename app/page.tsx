@@ -64,8 +64,8 @@ export default async function Home() {
               />
               <div className="flex justify-between p-5 bg-white">
                 <div>
-                  <p>{posts.title}</p>
-                  <p>
+                  <p className="text-lg font-bold">{posts.title}</p>
+                  <p className="text-xs">
                     {posts.description} by {posts.author.name}
                   </p>
                 </div>
